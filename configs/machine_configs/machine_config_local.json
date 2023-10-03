@@ -1,0 +1,11 @@
+{
+    "XLA": false,
+    "data_path": "C:/Vaibhav_Thesis/Script_Implementation/vaibhav-masterthesis/TrainingTooling_Data",
+    "h5_path": "C:/Vaibhav_Thesis/Masters Thesis/data/End2End/Radar_Detections_with_stationary_moving_NOSWEEPS",
+    "device": "auto",
+    "dg_save_path": null,
+    "machine": "mesos",
+    "model_path": "C:/Vaibhav_Thesis/Script_Implementation/vaibhav-masterthesis/logs",
+    "use_multiprocessing": true,
+    "workers": 6
+}

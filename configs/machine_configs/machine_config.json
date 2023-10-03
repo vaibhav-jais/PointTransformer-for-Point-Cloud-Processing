@@ -1,0 +1,10 @@
+{
+    "XLA": false,
+    "data_path": "/experimental_data/TrainingTooling_Data",
+    "device": "auto",
+    "dg_save_path": null,
+    "machine": "mesos",
+    "model_path": "/private_shared/logs",
+    "use_multiprocessing": true,
+    "workers": 6
+}
