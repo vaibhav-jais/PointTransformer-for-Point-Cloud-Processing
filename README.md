@@ -1,4 +1,4 @@
-# Vaibhav Masterthesis
+# PointTransformer for Point Cloud Processing
 
 
 
