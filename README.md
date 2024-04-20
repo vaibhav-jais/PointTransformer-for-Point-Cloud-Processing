@@ -2,21 +2,9 @@
 
 ***
 
-# Editing this README
+# Introduction
+This is PyTorch implementation for the training and testing of the PoinTransformer architecture for the semantic segmentation of automotive Radar Point Cloud Dataset.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+This research presents a comprehensive study on the semantic segmentation of automotive radar point clouds, leveraging two state-of-the-art deep learning models namely PointNet++ and PointTransformer. The experiments were conducted on three distinct configurations of the nuScenes radar dataset, each representing a unique scenario in autonomous driving. PointNet++ was chosen for its proven performance in radar-based semantic segmentation, while PointTransformer, a relatively recent model in the domain, was introduced to explore its potential for Radar point cloud-based deep learning application in autonomous driving. The implementation, training, and evaluation of both models were carried out, and the results were compared based on the class-wise F1 scores and the overall macro-averaged F1 score.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Ablation studies were also performed on PointTransformer, investigating the influence of various hyperparameters and the influence of di↵erent radar features, revealing insights into the key factors a↵ecting model performance.
